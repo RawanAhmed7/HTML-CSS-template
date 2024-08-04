@@ -26,6 +26,9 @@
 .bg-blue{
     background-color: #88c0ca;
 }
+.bg-dark-blue{
+    background-color: #85a3b9;
+}
 .container{
     width:80%;
     margin: auto;
@@ -85,7 +88,7 @@ a:hover{
 .search-engine{
     position: absolute;
     bottom: 23%;
-    left: -23%;
+    left: -14%;
 }
 button{
     width: 30%;
@@ -99,7 +102,7 @@ button{
 input{
     width: 70%;
     /* height: 61%; */
-    border: 17px solid white;
+    border: 28px solid white;
 }
 .form{
     display: flex;
@@ -123,4 +126,71 @@ form i {
 }
 span{
     font-size: 20px;
+}
+.scroll-down{
+    position: absolute;
+    top: 101%;
+    right: 122%;
+    rotate: 90deg;
+    width: 30%;
+}
+/* ------------------seccond page----------------  */
+.d-flex{
+    display:flex;
+    justify-content: space-between;
+}
+.section-2-margin {
+    margin-top: 10%
+}
+.square_2{
+    
+    background-color: #85a3b9;
+    width: 40%;
+    height: 293px;
+    border: 1px solid #85a3b9;
+    position: relative;
+}
+.text{
+    float: right;
+    width: 36%;
+    text-align: left;
+    margin: 6% 0;
+}
+.text h2{
+    margin: 5% 0;
+}
+.yellow-rec-1{
+    position: absolute;
+    height: 90px;
+    width: 63%;
+    background: #ffc800;
+    top: 83%;
+    left: 19%;
+}
+.location{
+    font-weight: 780;
+    text-align: center;
+    word-spacing: 28px;
+    padding: 11%;
+    font-size: 22px;
+}
+.yellow-rec-2{
+    position: absolute;
+    height: 90px;
+    width: 63%;
+    background: #ffc800;
+    top: 83%;
+    left: 58%;
+}
+.button{
+    background-color: #082c30;
+    width: 157px;
+    height: 65px;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 24px 0;
+    border: 1px solid #082c30;
+    margin-top: 6%;
+    font-weight:700;
 }
