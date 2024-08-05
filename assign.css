@@ -29,6 +29,9 @@
 .bg-dark-blue{
     background-color: #85a3b9;
 }
+.bg-dark{
+    background-color: #082c30;
+}
 .container{
     width:80%;
     margin: auto;
@@ -193,4 +196,23 @@ span{
     border: 1px solid #082c30;
     margin-top: 6%;
     font-weight:700;
+}
+.footer-font{
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-main-padding{
+    padding: 7% 0;
+    align-items: center;
+    width: 83%;
+}
+.arrow{
+    width: 17%;
+    padding: 4%;
+}
+
+.wh{
+    width: 180%;
+    height: 78px;
+    align-items: center;
 }
