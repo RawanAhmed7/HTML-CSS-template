@@ -32,6 +32,10 @@
 .bg-dark{
     background-color: #082c30;
 }
+.bd-gray
+{
+    background-color: lightgray;
+}
 .container{
     width:80%;
     margin: auto;
@@ -215,4 +219,50 @@ span{
     width: 180%;
     height: 78px;
     align-items: center;
+}
+.d-flex-r{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.heading h2{
+    padding: 34px 0;
+    font-size: 46px;
+    font-weight: 800;
+}
+.p {
+    padding: 17px 0;
+    width: 80%;
+    text-align-last: auto;
+}
+.small-squares{
+    background-color: lightgray;
+    /* width: 170%;
+    height: 35%; */
+    text-align: center;
+    padding-top: 43px;
+    margin: 15px 0;
+}
+.small-squares .text-yellow{
+    font-size: 50px;
+}
+.small-squares .text-dark{
+    font-weight:800
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 8px 20px;
+    
+    justify-content: space-between;
+}
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.heading h2{
+    width: 50%;
 }
