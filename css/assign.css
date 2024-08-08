@@ -19,6 +19,7 @@
 }
 .text-bold{
     font-size: 38px;
+    font-weight: 800;
 }
 .bg-yellow{
     background-color:#ffca00;
@@ -32,9 +33,9 @@
 .bg-dark{
     background-color: #082c30;
 }
-.bd-gray
+.bg-gray
 {
-    background-color: lightgray;
+    background-color: rgba(245, 242, 242, 0.564);
 }
 .container{
     width:80%;
@@ -145,6 +146,7 @@ span{
 .d-flex{
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 .section-2-margin {
     margin-top: 10%
@@ -265,4 +267,118 @@ span{
 }
 .heading h2{
     width: 50%;
+}
+.grid-container-3{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+}
+.blue-s{
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    width: 303px;
+    height: 300px;
+}
+.white-s{
+    background: white;
+    border: 2px solid white;
+    width: 303px;
+    height: 77px;
+}
+.item{
+    box-shadow: 5px 5px 7px gray;
+    margin: 4% 2%;
+}
+.p-style{
+    font-weight: 800;
+    font-size: 154%;
+}
+.icon-style{
+    font-size: small;
+    width: 45%;
+}
+.icon-style i{
+    font-size: small;
+    width: 45%;
+}
+.search{
+    padding:3% 0 ;
+}
+.customized-button{
+    background-color: white;
+    margin-right: 36%;
+    border: 1px solid white;
+    color: #082c30;
+    font-weight: 700;
+}
+.card_1:hover{
+    background-color:#ffc800;
+    border: 1px solid ;
+    box-shadow: 5px 5px 7px  gray;
+    color: white;
+}
+.card_2:hover{
+    background-color: #ffc800;
+    border: 1px solid ;
+    box-shadow: 5px 5px 7px  gray;
+    color: white;
+}
+.card_3:hover{
+    background-color: #ffc800;
+    border: 1px solid ;
+    box-shadow: 5px 5px 70px  gray;
+    color: white;
+    
+}
+.card_1:hover  h2{
+    color: white;
+}
+.card_2:hover  h2{
+    color: white;
+}
+.card_3:hover  h2{
+    color: white;
+}
+.card_2{
+    margin: 0 10%;
+    overflow: hidden;
+    height: 310px;
+    box-shadow: 5px 5px 7px gray;
+}
+.card_3 {
+    overflow: hidden;
+    height: 310px;
+    box-shadow: 5px 5px 7px gray;
+}
+.card-1{
+    height:310px;
+    overflow: hidden;
+    box-shadow: 5px 5px 7px gray;
+}
+.card_1 h2{
+    font-size: 133px;
+    transform: translateY(-99%);
+    height: 72px;
+    color: #082c30;
+    font-weight: 600;
+    
+}
+.card_2 h2{
+    font-size: 133px;
+    transform: translateY(-99%);
+    height: 72px;
+    color: #082c30;
+    font-weight: 600;
+    
+}
+.card_3 h2{
+    font-size: 133px;
+    transform: translateY(-97%);
+    height: 72px;
+    color: #082c30;
+    font-weight: 600;
+}
+
+.cards{
+    margin-top: 15%;
 }
